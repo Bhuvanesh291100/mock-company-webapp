@@ -1,0 +1,16 @@
+name: Simulated Jenkins
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  jenkins-simulation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Jenkinsfile Runner
+        uses: jenkinsci/jenkinsfile-runner-github-actions@v1
