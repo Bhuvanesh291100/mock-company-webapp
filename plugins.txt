@@ -1,0 +1,4 @@
+git
+junit
+credentials
+blueocean
