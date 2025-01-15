@@ -3,7 +3,7 @@ name: Simulated Jenkins
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   jenkins-simulation:
